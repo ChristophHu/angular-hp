@@ -6,11 +6,13 @@ import { AppComponent } from './app.component'
 import { LayoutComponent } from './layouts/layout/layout.component'
 
 import { AppRoutes } from './app.routing'
+import { SidebarComponent } from './sidebar/sidebar.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    LayoutComponent
+    LayoutComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
